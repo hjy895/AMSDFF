@@ -1,6 +1,6 @@
-# Enhanced AMSDFF: Advanced Multi-Scale Dynamic Feature Fusion for Text Classification
+# AMSDFF: Advanced Multi-Scale Dynamic Feature Fusion for Text Classification
 
-Enhanced AMSDFF is a state-of-the-art deep learning architecture that combines multi-scale attention mechanisms, dynamic feature fusion, and advanced pooling strategies to achieve superior performance on text classification tasks. The model outperforms across multiple benchmark datasets.
+AMSDFF is a state-of-the-art deep learning architecture that combines multi-scale attention mechanisms, dynamic feature fusion, and advanced pooling strategies to achieve superior performance on text classification tasks. The model outperforms across multiple benchmark datasets.
 
 ![image](https://github.com/user-attachments/assets/53001830-f973-4418-b281-bd84bca5a215)
 
