@@ -77,29 +77,20 @@ enhanced-amsdff/
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
+We welcome contributions!
 
 ## 📝 Citation
 
 If you use this code in your research, please cite:
 
 ```bibtex
-@article{enhanced_amsdff_2024,
+@article{enhanced_amsdff_2025,
   title={Enhanced AMSDFF: Advanced Multi-Scale Dynamic Feature Fusion for Text Classification},
-  author={Your Name},
-  journal={Your Journal},
-  year={2024}
+  year={2025}
 }
 ```
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
 We thank the open-source community for providing the foundational models and datasets used in this research.
-
-## 📧 Contact
-
-For questions or collaboration, please contact: [your.email@example.com]
