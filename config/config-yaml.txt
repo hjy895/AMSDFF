@@ -1,0 +1,54 @@
+# Enhanced AMSDFF Experiment Configuration
+
+# Model configuration
+model:
+  pretrained_model: "distilbert-base-uncased"
+  hidden_size: 768
+  dropout_rate: 0.1
+
+# Data configuration  
+data:
+  max_length: 256
+  val_split: 0.2
+  test_split: 0.1
+  batch_size: 16
+
+# Training configuration
+training:
+  epochs: 5
+  learning_rate: 5e-6
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  gradient_clip: 1.0
+  
+  # Loss function weights
+  loss_weights:
+    ce: 0.4
+    focal: 0.4
+    label_smoothing: 0.2
+  
+  # Loss function parameters
+  focal_alpha: 1.0
+  focal_gamma: 2.0
+  label_smoothing: 0.1
+
+# Datasets to evaluate
+datasets:
+  - news_categorization
+  - sentiment_analysis
+  - topic_classification
+  - document_classification
+
+# Experiment settings
+experiment:
+  num_runs: 1
+  save_checkpoints: true
+  checkpoint_dir: "checkpoints"
+  log_interval: 100
+  eval_interval: 500
+
+# Hardware settings
+hardware:
+  use_cuda: true
+  fp16: false
+  num_workers: 4
