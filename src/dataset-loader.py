@@ -194,12 +194,12 @@ class DatasetLoader:
         
         return texts, labels
     
-    def _generate_synthetic_text(self, category: str, index: int) -> str:
-        """Generate synthetic text for a category"""
-        templates = {
-            'World': "International news about {topic} affecting global {aspect} with implications for {region}.",
-            'Sports': "In today's {sport} match, the {team} showed remarkable {quality} during the {event}.",
-            'Business': "The {company} announced {action} in the {sector} market, affecting {stakeholder} significantly.",
+    #def _generate_synthetic_text(self, category: str, index: int) -> str:
+     #   """Generate synthetic text for a category"""
+      #  templates = {
+          #  'World': "International news about {topic} affecting global {aspect} with implications for {region}.",
+          #  'Sports': "In today's {sport} match, the {team} showed remarkable {quality} during the {event}.",
+         #   'Business': "The {company} announced {action} in the {sector} market, affecting {stakeholder} significantly.",
             'Technology': "New {tech} innovation in {field} promises to revolutionize how we {action} in the future.",
             'Politics': "Political developments in {country} regarding {policy} have sparked debate about {issue}.",
             'Entertainment': "The latest {medium} featuring {artist} has captivated audiences with its {quality}.",
@@ -216,7 +216,7 @@ class DatasetLoader:
             'Negative': "This {subject} was disappointing due to {reason} and failed to meet expectations.",
             'Positive': "Excellent {subject} that exceeded expectations with outstanding {quality} throughout.",
             'Education': "Educational program on {subject} helps students understand {concept} more effectively."
-        }
+        }###
         
         # Get template for category
         template = templates.get(category, "Generic text about {topic} with details about {aspect}.")
