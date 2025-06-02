@@ -1,0 +1,33 @@
+# Core dependencies
+torch>=1.9.0
+transformers>=4.20.0
+numpy>=1.21.0
+pandas>=1.3.0
+scikit-learn>=0.24.0
+tqdm>=4.62.0
+
+# Data processing
+nltk>=3.6.0
+spacy>=3.0.0
+
+# Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Configuration
+pyyaml>=5.4.0
+omegaconf>=2.1.0
+
+# Testing
+pytest>=6.2.0
+pytest-cov>=2.12.0
+
+# Optional dependencies for development
+black>=21.6b0
+flake8>=3.9.0
+mypy>=0.910
+isort>=5.9.0
+
+# Documentation
+sphinx>=4.0.0
+sphinx-rtd-theme>=0.5.0

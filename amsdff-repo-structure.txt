@@ -1,0 +1,33 @@
+project-root/
+│
+├── README.md
+├── LICENSE.txt
+├── requirements.txt
+├── setup.py
+│
+├── docs/
+│   └── amsdff-readme.md
+│   └── amsdff-repo-structure.txt
+│
+├── config/
+│   └── config-yaml.txt
+│   └── config-yaml (1).txt
+│
+├── src/
+│   ├── __init__.py
+│   ├── base-models.py
+│   ├── attention-module.py
+│   ├── fusion-module.py
+│   ├── pooling-module.py
+│   ├── loss-functions.py
+│   ├── model-init.py
+│   ├── dataset-loader.py
+│   ├── evaluation-metrics.py
+│   ├── evaluator-module.py
+│   ├── trainer-module.py
+│   ├── utils-helpers.py
+│
+├── experiments/
+│   └── run-experiments.py
+│
+└── .gitignore
