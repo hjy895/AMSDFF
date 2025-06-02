@@ -2,7 +2,7 @@
 
 Enhanced AMSDFF is a state-of-the-art deep learning architecture that combines multi-scale attention mechanisms, dynamic feature fusion, and advanced pooling strategies to achieve superior performance on text classification tasks. The model outperforms across multiple benchmark datasets.
 
-![image](https://github.com/user-attachments/assets/cf46325a-aa1e-4a9f-a001-044d96dac86a)
+![image](https://github.com/user-attachments/assets/53001830-f973-4418-b281-bd84bca5a215)
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.9+-red.svg)](https://pytorch.org/)
