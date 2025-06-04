@@ -27,11 +27,15 @@ This repository contains the official implementation of the Enhanced AMSDFF (Adv
 
 ## 📊 Supported Datasets
 
-The model has been evaluated on multiple text classification benchmarks:
-- News categorization datasets
-- Sentiment analysis datasets
-- Topic classification datasets
-- Document classification datasets
+The model has been evaluated on four diverse text classification benchmarks spanning different domains, scales, and temporal ranges:
+
+- News Categorization
+AG News (2004-2005): Large-scale news classification with 127,600 samples across 4 categories
+BBC News (2004-2005): Balanced news categorization with 2,225 samples across 5 categories
+
+- Financial & Topic Classification
+Reuters (1987): Financial domain complexity with 10,788 samples across 46 topics
+20 Newsgroups (1993-1994): Forum discussion classification with 18,846 samples across 20 categories
 
 ## 🏗️ Architecture
 
